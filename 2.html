@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script src="2.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row justify-content-center" style="margin-top: 200px;">
+        <div
+          class="col-12 col-md-6 bg-info d-flex justify-content-center align-items-center"
+          style="height: 50vh;"
+        >
+          <form action="" method="post">
+            <div style="display: flex; margin-bottom: 5px;">
+              <label for="username">username</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Username"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+                id="username"
+              /><br />
+            </div>
+            <div style="display: flex; margin-bottom: 10px;">
+              <label for="password">password</label>
+              <input
+                type="password"
+                class="form-control"
+                placeholder="password"
+                aria-label="Username"
+                aria-describedby="basic-addon1"
+                id="password"
+              />
+            </div>
+            <button
+              type="button"
+              class="btn btn-dark"
+              style="margin-left: 100px;"
+              onclick="login()"
+            >
+              Login
+            </button>
+            <button type="button" class="btn btn-dark">Sign up</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
